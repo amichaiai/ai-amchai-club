@@ -1,7 +1,7 @@
 export default function TestimonialsSection() {
   return (
     <section className="py-10 md:py-24 bg-white text-black" dir="rtl">
-      <div className="max-w-5xl mx-auto px-5 md:px-4">
+      <div className="max-w-5xl mx-auto px-5 md:px-4 text-center">
         <div className="text-center mb-10">
           <p className="text-blue-600 font-bold text-sm mb-2 tracking-wide">TESTIMONIALS</p>
           <h2 className="text-2xl md:text-5xl font-black">

@@ -61,7 +61,7 @@ export default function BenefitsSection() {
 
   return (
     <section className="py-10 md:py-24 bg-white text-black" dir="rtl">
-      <div className="max-w-5xl mx-auto px-5 md:px-4">
+      <div className="max-w-5xl mx-auto px-5 md:px-4 text-center">
         {/* Section heading */}
         <h2 className="text-2xl md:text-5xl font-black text-center mb-4">
           מה בפועל מקבלים במועדון?

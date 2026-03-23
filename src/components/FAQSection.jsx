@@ -61,7 +61,7 @@ export default function FAQSection() {
 
   return (
     <section className="py-6 md:py-12 bg-white text-black">
-      <div className="max-w-3xl mx-auto px-4">
+      <div className="max-w-3xl mx-auto px-4 text-center">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-6 md:mb-10">
           שאלות נפוצות
         </h2>
