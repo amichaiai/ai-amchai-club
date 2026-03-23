@@ -1,3 +1,5 @@
+import { CalcalistLogo, Channel12Logo, Channel13Logo, Channel14Logo } from './MediaLogos';
+
 export default function Hero() {
   const scrollToSignup = (e) => {
     e.preventDefault();
@@ -26,17 +28,17 @@ export default function Hero() {
         <div className="inline-flex flex-col items-center gap-3 mb-8 px-6 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md">
           <p className="text-gray-400 text-sm md:text-base">:אחרי שהופיע ב</p>
           <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3">
-            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <span className="text-red-500 font-black text-sm md:text-base tracking-tight" style={{fontFamily: 'Arial, sans-serif'}}>כלכליסט</span>
+            <div className="bg-white/10 rounded-lg px-2 py-1.5 md:px-3 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <CalcalistLogo className="h-7 md:h-8 w-auto" />
             </div>
-            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <span className="text-white font-bold text-sm md:text-base">חדשות 13</span>
+            <div className="bg-white/10 rounded-lg px-2 py-1.5 md:px-3 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <Channel13Logo className="h-7 md:h-8 w-auto" />
             </div>
-            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <span className="text-white font-bold text-sm md:text-base">ערוץ 12</span>
+            <div className="bg-white/10 rounded-lg px-2 py-1.5 md:px-3 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <Channel12Logo className="h-7 md:h-8 w-auto" />
             </div>
-            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <span className="text-white font-bold text-sm md:text-base">ערוץ 14</span>
+            <div className="bg-white/10 rounded-lg px-2 py-1.5 md:px-3 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <Channel14Logo className="h-7 md:h-8 w-auto" />
             </div>
           </div>
         </div>
