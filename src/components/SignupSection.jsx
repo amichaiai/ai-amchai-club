@@ -105,11 +105,13 @@ export default function SignupSection() {
         </form>
 
         {/* Payment methods */}
-        <img
-          src="/images/payment-methods.png"
-          alt="אמצעי תשלום"
-          className="max-w-xs md:max-w-md w-full mx-auto mb-6"
-        />
+        <div className="flex justify-center mb-6">
+          <img
+            src="/images/payment-methods.png"
+            alt="אמצעי תשלום"
+            className="max-w-xs md:max-w-md w-full"
+          />
+        </div>
 
         {/* Price note */}
         <p className="text-gray-500 text-xs md:text-sm mb-6">
@@ -117,11 +119,13 @@ export default function SignupSection() {
         </p>
 
         {/* Cancel easy image */}
-        <img
-          src="/images/cancel-easy.jpeg"
-          alt="ביטול קל"
-          className="w-32 md:w-40 mx-auto rounded-lg"
-        />
+        <div className="flex justify-center">
+          <img
+            src="/images/cancel-easy.jpeg"
+            alt="ביטול קל"
+            className="w-32 md:w-40 rounded-lg"
+          />
+        </div>
       </div>
     </section>
   );

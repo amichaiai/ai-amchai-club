@@ -70,13 +70,15 @@ export default function PricingSection() {
         </div>
 
         {/* Coin image with glow */}
-        <div className="relative animate-float">
-          <div className="absolute inset-0 bg-orange-400/20 blur-3xl rounded-full scale-75 pointer-events-none" />
-          <img
-            src="/images/coin10.png"
-            alt="10 שקלים"
-            className="relative max-w-[150px] md:max-w-[200px] w-full mx-auto"
-          />
+        <div className="flex justify-center">
+          <div className="relative animate-float">
+            <div className="absolute inset-0 bg-orange-400/20 blur-3xl rounded-full scale-75 pointer-events-none" />
+            <img
+              src="/images/coin10.png"
+              alt="10 שקלים"
+              className="relative max-w-[150px] md:max-w-[200px] w-full"
+            />
+          </div>
         </div>
       </div>
     </section>

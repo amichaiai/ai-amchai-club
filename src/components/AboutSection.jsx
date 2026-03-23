@@ -23,11 +23,13 @@ export default function AboutSection() {
         </p>
 
         {/* Company logos */}
-        <img
-          src="/images/google-meta-microsoft.png"
-          alt="Google, Meta, Microsoft"
-          className="max-w-[280px] md:max-w-lg w-full mx-auto rounded-lg mb-10"
-        />
+        <div className="flex justify-center mb-10">
+          <img
+            src="/images/google-meta-microsoft.png"
+            alt="Google, Meta, Microsoft"
+            className="max-w-[280px] md:max-w-lg w-full rounded-lg"
+          />
+        </div>
 
         {/* Golden quote */}
         <p className="text-amber-400 italic text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
@@ -44,7 +46,7 @@ export default function AboutSection() {
         </p>
 
         {/* Story */}
-        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto text-right">
+        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto">
           <p>
             בסוף 2022, כשהבנה ראשונית של מה זה AI התחילה להגיע לציבור הרחב, אני
             כבר הייתי בעל עסק פעיל עם צוות, לקוחות, ולחצים של יום-יום.
@@ -73,14 +75,16 @@ export default function AboutSection() {
         </div>
 
         {/* Communities image */}
-        <img
-          src="/images/communities.png"
-          alt="קהילות"
-          className="max-w-[300px] md:max-w-lg w-full mx-auto rounded-lg mb-10"
-        />
+        <div className="flex justify-center mb-10">
+          <img
+            src="/images/communities.png"
+            alt="קהילות"
+            className="max-w-[300px] md:max-w-lg w-full rounded-lg"
+          />
+        </div>
 
         {/* Companies reaching out */}
-        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto text-right">
+        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto">
           <p>
             בשלב מסוים, חברות כמו Google, Facebook ו-Microsoft התחילו לפנות אליי
             – לא בגלל שאני מהנדס AI, אלא בגלל שאני יודע לתרגם את הטכנולוגיה
@@ -94,26 +98,10 @@ export default function AboutSection() {
 
         {/* Interview images 2x2 grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto mb-12">
-          <img
-            src="/images/interview1.png"
-            alt="ראיון 1"
-            className="w-full rounded-lg"
-          />
-          <img
-            src="/images/interview2.png"
-            alt="ראיון 2"
-            className="w-full rounded-lg"
-          />
-          <img
-            src="/images/interview3.jpg"
-            alt="ראיון 3"
-            className="w-full rounded-lg"
-          />
-          <img
-            src="/images/interview4.jpg"
-            alt="ראיון 4"
-            className="w-full rounded-lg"
-          />
+          <img src="/images/interview1.png" alt="ראיון 1" className="w-full rounded-lg" />
+          <img src="/images/interview2.png" alt="ראיון 2" className="w-full rounded-lg" />
+          <img src="/images/interview3.jpg" alt="ראיון 3" className="w-full rounded-lg" />
+          <img src="/images/interview4.jpg" alt="ראיון 4" className="w-full rounded-lg" />
         </div>
 
         {/* Google I/O */}
@@ -122,14 +110,16 @@ export default function AboutSection() {
           <span className="text-blue-400">Google I/O</span>
         </p>
 
-        <img
-          src="/images/google-io.png"
-          alt="Google I/O"
-          className="max-w-[300px] md:max-w-lg w-full mx-auto rounded-lg mb-12"
-        />
+        <div className="flex justify-center mb-12">
+          <img
+            src="/images/google-io.png"
+            alt="Google I/O"
+            className="max-w-[300px] md:max-w-lg w-full rounded-lg"
+          />
+        </div>
 
         {/* Closing — the gap */}
-        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto text-right">
+        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto">
           <p>
             אבל מה שהכי כאב לי לראות – זה הפער. חברות ענק כבר משתמשות ב-AI
             בצורה מטורפת. הן חוסכות מיליונים, מייעלות תהליכים, ומחליפות צוותים
@@ -146,7 +136,7 @@ export default function AboutSection() {
           עוד שנה.
         </p>
 
-        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 max-w-2xl mx-auto text-right">
+        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 max-w-2xl mx-auto">
           <p>
             עוד שנה מהיום, אתה תסתכל אחורה ותשאל את עצמך – למה לא התחלתי קודם?
           </p>
