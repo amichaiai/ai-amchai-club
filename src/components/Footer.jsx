@@ -8,7 +8,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="py-12 bg-gray-950 text-gray-400 text-center">
+    <footer className="py-8 md:py-12 pb-20 md:pb-12 bg-gray-950 text-gray-400 text-center">
       <div className="max-w-2xl mx-auto px-4">
         {/* Brand */}
         <h3 className="text-white text-2xl font-bold mb-2">AI Master</h3>
@@ -21,7 +21,7 @@ export default function Footer() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-gray-400 hover:text-white transition-colors underline underline-offset-2"
+                className="text-gray-400 hover:text-white transition-colors underline underline-offset-2 inline-block py-2 min-h-[44px]"
               >
                 {link.label}
               </a>

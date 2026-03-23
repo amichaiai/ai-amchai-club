@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
-    <section className="py-16 md:py-24 bg-black">
-      <div className="max-w-3xl mx-auto px-4 text-center">
+    <section className="py-10 md:py-24 bg-black">
+      <div className="max-w-3xl mx-auto px-5 md:px-4 text-center">
         {/* Opening lines */}
         <p className="text-gray-400 text-lg md:text-xl mb-1">
           בעולם שבו כולם הפכו &quot;מומחי AI&quot;
@@ -14,8 +14,8 @@ export default function AboutSection() {
         </p>
 
         {/* Introduction */}
-        <p className="text-white text-2xl md:text-3xl mb-2">נעים מאוד,</p>
-        <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
+        <p className="text-white text-lg md:text-3xl mb-2">נעים מאוד,</p>
+        <h2 className="text-white text-xl md:text-5xl font-bold mb-4">
           אני עמיחי שקל,
         </h2>
         <p className="text-white text-lg md:text-xl mb-8">
@@ -26,7 +26,7 @@ export default function AboutSection() {
         <img
           src="/images/google-meta-microsoft.png"
           alt="Google, Meta, Microsoft"
-          className="max-w-lg w-full mx-auto rounded-lg mb-10"
+          className="max-w-[280px] md:max-w-lg w-full mx-auto rounded-lg mb-10"
         />
 
         {/* Golden quote */}
@@ -36,10 +36,10 @@ export default function AboutSection() {
         </p>
 
         {/* AI in my blood */}
-        <p className="text-white text-xl md:text-2xl font-bold mb-1">
+        <p className="text-white text-lg md:text-2xl font-bold mb-1">
           גם דאגתי ש-AI יזרום אצלי בדם
         </p>
-        <p className="text-blue-400 text-xl md:text-2xl font-bold mb-10">
+        <p className="text-blue-400 text-lg md:text-2xl font-bold mb-10">
           כל יום ב-3 שנים האחרונות
         </p>
 
@@ -76,7 +76,7 @@ export default function AboutSection() {
         <img
           src="/images/communities.png"
           alt="קהילות"
-          className="max-w-lg w-full mx-auto rounded-lg mb-10"
+          className="max-w-[300px] md:max-w-lg w-full mx-auto rounded-lg mb-10"
         />
 
         {/* Companies reaching out */}
@@ -88,12 +88,12 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <p className="text-white text-xl md:text-2xl font-bold mb-8">
+        <p className="text-white text-lg md:text-2xl font-bold mb-8">
           אפילו ערוצים מובילים הזמינו אותי להתראיין
         </p>
 
         {/* Interview images 2x2 grid */}
-        <div className="grid grid-cols-2 gap-4 max-w-lg mx-auto mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto mb-12">
           <img
             src="/images/interview1.png"
             alt="ראיון 1"
@@ -125,7 +125,7 @@ export default function AboutSection() {
         <img
           src="/images/google-io.png"
           alt="Google I/O"
-          className="max-w-lg w-full mx-auto rounded-lg mb-12"
+          className="max-w-[300px] md:max-w-lg w-full mx-auto rounded-lg mb-12"
         />
 
         {/* Closing — the gap */}
@@ -142,7 +142,7 @@ export default function AboutSection() {
         </div>
 
         {/* Dramatic closing */}
-        <p className="text-blue-400 text-3xl md:text-4xl font-bold mb-8">
+        <p className="text-blue-400 text-xl md:text-4xl font-bold mb-8">
           עוד שנה.
         </p>
 

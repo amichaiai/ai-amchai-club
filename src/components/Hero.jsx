@@ -15,21 +15,21 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center w-full max-w-4xl mx-auto px-4 pt-16 pb-12 text-center">
+      <div className="relative z-10 flex flex-col items-center w-full max-w-4xl mx-auto px-4 pt-8 md:pt-16 pb-12 text-center">
         {/* "As seen in" bar */}
         <p className="text-gray-400 text-sm md:text-base mb-4">:אחרי שהופיע ב</p>
-        <div className="flex flex-wrap items-center justify-center gap-4 mb-6">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center justify-center h-12">
-            <img src="/images/now14.png" alt="Now 14" className="h-7 object-contain brightness-0 invert opacity-80" />
+        <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4 mb-6">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12">
+            <img src="/images/now14.png" alt="Now 14" className="h-5 md:h-7 object-contain brightness-0 invert opacity-80" />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center justify-center h-12">
-            <img src="/images/channel10.jpg" alt="Channel 10" className="h-7 object-contain brightness-0 invert opacity-80" />
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12">
+            <img src="/images/channel10.jpg" alt="Channel 10" className="h-5 md:h-7 object-contain brightness-0 invert opacity-80" />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center justify-center h-12">
-            <img src="/images/n12.png" alt="N12" className="h-7 object-contain brightness-0 invert opacity-80" />
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12">
+            <img src="/images/n12.png" alt="N12" className="h-5 md:h-7 object-contain brightness-0 invert opacity-80" />
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 flex items-center justify-center h-12">
-            <span className="text-red-500 font-bold text-lg tracking-tight">Calcalist</span>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12">
+            <span className="text-red-500 font-bold text-base md:text-lg tracking-tight">Calcalist</span>
           </div>
         </div>
 
@@ -50,13 +50,13 @@ export default function Hero() {
         </p>
 
         {/* Club name - blue glow */}
-        <h2 className="text-3xl md:text-5xl font-black text-gradient-blue animate-glow mb-6">
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-black text-gradient-blue animate-glow mb-6">
           מועדון AI Master
         </h2>
 
         {/* Main headline */}
         <h1
-          className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-8"
+          className="text-2xl md:text-5xl lg:text-6xl font-black leading-tight mb-8"
           style={{
             textShadow: '0 0 30px rgba(59, 130, 246, 0.6), 0 0 60px rgba(59, 130, 246, 0.3)',
           }}
@@ -65,7 +65,7 @@ export default function Hero() {
         </h1>
 
         {/* Sub-bullets */}
-        <div className="flex flex-col items-center gap-2 mb-6 text-lg md:text-2xl font-bold">
+        <div className="flex flex-col items-center gap-2 mb-6 text-base md:text-2xl font-bold">
           <p>
             ככה תסיים כל משימה{' '}
             <span className="text-orange-400">פי 3 יותר מהר,</span>
@@ -89,7 +89,7 @@ export default function Hero() {
         {/* Amichai hero image - stylized device mockup */}
         <div className="relative mb-10 animate-float">
           {/* Laptop frame */}
-          <div className="relative bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl p-2 shadow-2xl shadow-blue-500/20 max-w-md mx-auto">
+          <div className="relative bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl p-2 shadow-2xl shadow-blue-500/20 max-w-xs md:max-w-md mx-auto">
             <div className="rounded-lg overflow-hidden">
               <img
                 src="/images/amichai-hero.png"
@@ -102,7 +102,7 @@ export default function Hero() {
           </div>
 
           {/* Tablet mockup - offset */}
-          <div className="absolute -left-8 md:-left-16 top-8 w-28 md:w-36 bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg p-1 shadow-xl shadow-blue-500/10 rotate-[-6deg]">
+          <div className="hidden md:block absolute -left-8 md:-left-16 top-8 w-28 md:w-36 bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg p-1 shadow-xl shadow-blue-500/10 rotate-[-6deg]">
             <div className="rounded overflow-hidden">
               <img
                 src="/images/amichai-hero.png"
@@ -113,7 +113,7 @@ export default function Hero() {
           </div>
 
           {/* Phone mockup - offset */}
-          <div className="absolute -right-6 md:-right-12 bottom-4 w-20 md:w-24 bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg p-1 shadow-xl shadow-blue-500/10 rotate-[6deg]">
+          <div className="hidden md:block absolute -right-6 md:-right-12 bottom-4 w-20 md:w-24 bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg p-1 shadow-xl shadow-blue-500/10 rotate-[6deg]">
             <div className="rounded overflow-hidden">
               <img
                 src="/images/amichai-hero.png"
@@ -128,7 +128,7 @@ export default function Hero() {
         <a
           href="#signup"
           onClick={scrollToSignup}
-          className="inline-block bg-gradient-to-l from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white text-lg md:text-xl font-bold px-10 py-4 rounded-full shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 mb-8"
+          className="inline-block bg-gradient-to-l from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white text-base md:text-xl font-bold px-6 py-3 md:px-10 md:py-4 rounded-full shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 mb-8"
         >
           אני רוצה לשמוע פרטים על המועדון
         </a>

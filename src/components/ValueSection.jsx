@@ -1,8 +1,8 @@
 export default function ValueSection() {
   return (
-    <section className="py-16 md:py-24 bg-white text-black">
+    <section className="py-10 md:py-24 bg-white text-black">
       <div className="max-w-3xl mx-auto px-4 text-center">
-        <p className="text-2xl md:text-3xl font-bold mb-2 leading-snug">
+        <p className="text-xl md:text-3xl font-bold mb-2 leading-snug">
           כל שבוע בימי שלישי ניפגש להרצאה על כלי אחד
         </p>
 
@@ -28,7 +28,7 @@ export default function ValueSection() {
           להפוך כל כלי AI חדש שיוצא
         </p>
 
-        <p className="text-blue-500 text-xl md:text-2xl font-bold mb-8">
+        <p className="text-blue-500 text-lg md:text-2xl font-bold mb-8">
           לאיש צוות שחוסך לי עשרות שעות ואלפי שקלים
         </p>
 
@@ -36,7 +36,7 @@ export default function ValueSection() {
           תלמדו איך להפוך את עצמכם לצוות של בן אדם אחד
         </p>
 
-        <p className="text-lg md:text-xl font-bold">
+        <p className="text-base md:text-xl font-bold">
           שנשאר רלוונטי גם בתקופה הכי חסרת יציבות בהיסטוריה האנושית
         </p>
       </div>

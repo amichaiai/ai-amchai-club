@@ -23,16 +23,16 @@ export default function SignupSection() {
   };
 
   return (
-    <section id="signup" className="py-16 md:py-24 bg-black text-white text-center">
-      <div className="max-w-2xl mx-auto px-4">
+    <section id="signup" className="py-10 md:py-24 bg-black text-white text-center">
+      <div className="max-w-2xl mx-auto px-5 md:px-4">
         {/* Headline */}
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 leading-snug">
+        <h2 className="text-xl md:text-3xl font-bold mb-6 leading-snug">
           אז אם כבר הבנת שהמהפכה הבאה כבר כאן ואתה לא רוצה להישאר מאחור:
         </h2>
 
-        <p className="text-3xl md:text-4xl font-bold mb-4">עכשיו&hellip;</p>
+        <p className="text-2xl md:text-4xl font-bold mb-4">עכשיו&hellip;</p>
 
-        <p className="text-xl md:text-2xl mb-8">
+        <p className="text-lg md:text-2xl mb-8">
           תמלא את המייל בטופס כאן למטה{' '}
           <span role="img" aria-label="finger pointing down">
             &#x1F447;
@@ -59,17 +59,17 @@ export default function SignupSection() {
             placeholder="your@email.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full px-4 py-3 rounded-lg bg-gray-900 border border-gray-700 text-white placeholder-gray-500 text-left focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 mb-4"
+            className="w-full px-4 py-3 min-h-[48px] rounded-lg bg-gray-900 border border-gray-700 text-white placeholder-gray-500 text-left focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 mb-4"
             dir="ltr"
           />
 
           {/* Checkbox */}
-          <label className="flex items-start gap-3 text-right text-sm text-gray-300 mb-6 cursor-pointer">
+          <label className="flex items-start gap-3 text-right text-sm text-gray-300 mb-6 cursor-pointer min-h-[44px]">
             <input
               type="checkbox"
               checked={agreed}
               onChange={(e) => setAgreed(e.target.checked)}
-              className="mt-1 h-4 w-4 shrink-0 rounded border-gray-600 bg-gray-900 text-blue-500 focus:ring-blue-500"
+              className="mt-1 h-5 w-5 shrink-0 rounded border-gray-600 bg-gray-900 text-blue-500 focus:ring-blue-500"
             />
             <span>
               אני מאשר/ת קבלת דיוור שיווקי ועדכונים על המועדון (חובה)
@@ -93,7 +93,7 @@ export default function SignupSection() {
           {/* Submit button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-l from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white text-xl md:text-2xl font-bold px-8 py-4 rounded-full shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 cursor-pointer"
+            className="w-full bg-gradient-to-l from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white text-lg md:text-2xl font-bold px-8 py-4 rounded-full shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 cursor-pointer"
           >
             <img
               src="/images/coin10.png"
@@ -108,7 +108,7 @@ export default function SignupSection() {
         <img
           src="/images/payment-methods.png"
           alt="אמצעי תשלום"
-          className="max-w-md w-full mx-auto mb-6"
+          className="max-w-xs md:max-w-md w-full mx-auto mb-6"
         />
 
         {/* Price note */}

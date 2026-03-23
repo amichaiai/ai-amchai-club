@@ -60,9 +60,9 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="py-8 md:py-12 bg-white text-black">
+    <section className="py-6 md:py-12 bg-white text-black">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-6 md:mb-10">
           שאלות נפוצות
         </h2>
 
@@ -71,12 +71,12 @@ export default function FAQSection() {
             <div key={index}>
               <button
                 onClick={() => toggle(index)}
-                className="w-full flex items-center justify-between py-5 px-2 text-right cursor-pointer focus:outline-none group"
+                className="w-full flex items-center justify-between py-4 px-1 md:py-5 md:px-2 text-right cursor-pointer focus:outline-none group"
               >
-                <span className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                <span className="text-base md:text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors text-right">
                   {item.question}
                 </span>
-                <span className="text-2xl font-light text-gray-400 mr-4 shrink-0 transition-transform duration-300"
+                <span className="text-2xl font-light text-gray-400 ms-4 shrink-0 transition-transform duration-300"
                   style={{
                     transform: openIndex === index ? 'rotate(45deg)' : 'rotate(0deg)',
                   }}
@@ -92,7 +92,7 @@ export default function FAQSection() {
                   opacity: openIndex === index ? 1 : 0,
                 }}
               >
-                <p className="px-2 pb-5 text-gray-600 text-base md:text-lg leading-relaxed">
+                <p className="px-2 pb-5 text-gray-600 text-sm md:text-lg leading-relaxed">
                   {item.answer}
                 </p>
               </div>

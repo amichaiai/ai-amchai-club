@@ -60,10 +60,10 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-white text-black" dir="rtl">
-      <div className="max-w-5xl mx-auto px-4">
+    <section className="py-10 md:py-24 bg-white text-black" dir="rtl">
+      <div className="max-w-5xl mx-auto px-5 md:px-4">
         {/* Section heading */}
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
+        <h2 className="text-2xl md:text-5xl font-black text-center mb-4">
           מה בפועל מקבלים במועדון?
         </h2>
         <p className="text-gray-500 text-center text-lg md:text-xl mb-10">
@@ -76,7 +76,7 @@ export default function BenefitsSection() {
         </h3>
 
         {/* Weekly program cards */}
-        <div className="flex flex-col gap-12 mb-20">
+        <div className="flex flex-col gap-8 md:gap-12 mb-20">
           {weeks.map((week, i) => {
             const isOdd = i % 2 === 0; // 0-indexed: first card (week 1) image on right
             return (
@@ -89,7 +89,7 @@ export default function BenefitsSection() {
                   <img
                     src={week.image}
                     alt={week.title}
-                    className="w-full h-auto rounded-xl object-cover"
+                    className="w-full aspect-video object-cover rounded-lg md:rounded-xl"
                   />
                 </div>
                 {/* Text */}
@@ -108,10 +108,10 @@ export default function BenefitsSection() {
         </div>
 
         {/* Benefit blocks */}
-        <div className="flex flex-col gap-16 mb-16">
+        <div className="flex flex-col gap-10 md:gap-16 mb-10 md:mb-16">
           {benefits.map((b) => (
             <div key={b.num} className="flex flex-col gap-4">
-              <h3 className="text-xl md:text-2xl font-bold">
+              <h3 className="text-lg md:text-2xl font-bold">
                 <span className="text-blue-600">#{b.num}</span> {b.title}
               </h3>
               <img

@@ -50,3 +50,24 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Safe area for sticky button */
+main > section:last-of-type {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  main > section:last-of-type {
+    padding-bottom: 0;
+  }
+}
+
+/* Better touch targets */
+button, a, input, select, textarea {
+  min-height: 44px;
+}
+
+/* Smooth scroll offset for fixed elements */
+#signup {
+  scroll-margin-top: 20px;
+}
