@@ -1,6 +1,6 @@
 export default function PricingSection() {
   return (
-    <section className="relative py-10 md:py-24 bg-black text-white text-center overflow-hidden">
+    <section className="relative py-10 md:py-24 bg-background text-foreground text-center overflow-hidden">
       {/* Background gradient orb */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-blue-600/10 blur-[150px] pointer-events-none" />
 

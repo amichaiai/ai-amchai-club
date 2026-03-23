@@ -8,7 +8,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="py-8 md:py-12 pb-20 md:pb-12 bg-gray-950 text-gray-400 text-center">
+    <footer className="py-8 md:py-12 pb-20 md:pb-12 bg-card text-muted-foreground text-center">
       <div className="max-w-2xl mx-auto px-4">
         {/* Brand */}
         <h3 className="text-white text-2xl font-bold mb-2">AI Master</h3>

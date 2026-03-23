@@ -23,7 +23,7 @@ export default function SignupSection() {
   };
 
   return (
-    <section id="signup" className="py-10 md:py-24 bg-black text-white text-center">
+    <section id="signup" className="py-10 md:py-24 bg-background text-foreground text-center">
       <div className="max-w-2xl mx-auto px-5 md:px-4">
         {/* Headline */}
         <h2 className="text-xl md:text-3xl font-bold mb-6 leading-snug">

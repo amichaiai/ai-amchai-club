@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="py-10 md:py-24 bg-black">
+    <section className="py-10 md:py-24 bg-background text-foreground">
       <div className="max-w-3xl mx-auto px-5 md:px-4 text-center">
         {/* Opening lines */}
         <p className="text-gray-400 text-lg md:text-xl mb-1">
