@@ -91,7 +91,7 @@ export default function PainSection() {
           </p>
 
           {/* Amichai portrait */}
-          <div className="flex justify-center">
+          <div className="flex justify-center mt-8">
             <img
               src="/images/amichai-portrait.png"
               alt="עמיחי שקל"

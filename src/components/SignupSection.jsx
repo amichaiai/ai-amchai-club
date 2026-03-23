@@ -41,7 +41,7 @@ export default function SignupSection() {
 
         {/* Special offer reminder */}
         <p className="text-gray-400 text-base md:text-lg mb-8">
-          הצטרף עכשיו ב-10 ש&quot;ח בלבד לחודש הראשון &ndash; מחיר השקה מיוחד!
+          הצטרף עכשיו ב-10 ש&quot;ח בלבד לחודש הראשון, מחיר השקה מיוחד!
         </p>
 
         {/* Form */}
@@ -105,7 +105,7 @@ export default function SignupSection() {
         </form>
 
         {/* Payment methods */}
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mt-8 mb-6">
           <img
             src="/images/payment-methods.png"
             alt="אמצעי תשלום"

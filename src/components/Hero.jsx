@@ -25,18 +25,18 @@ export default function Hero() {
         {/* "As seen in" frosted glass pill */}
         <div className="inline-flex flex-col items-center gap-3 mb-8 px-6 py-4 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md">
           <p className="text-gray-400 text-sm md:text-base">:אחרי שהופיע ב</p>
-          <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4">
-            <div className="bg-white/10 rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <img src="/images/now14.png" alt="Now 14" className="h-5 md:h-7 object-contain brightness-0 invert opacity-80" />
+          <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3">
+            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <span className="text-red-500 font-black text-sm md:text-base tracking-tight" style={{fontFamily: 'Arial, sans-serif'}}>כלכליסט</span>
             </div>
-            <div className="bg-white/10 rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <img src="/images/channel10.jpg" alt="Channel 10" className="h-5 md:h-7 object-contain brightness-0 invert opacity-80" />
+            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <span className="text-white font-bold text-sm md:text-base">חדשות 13</span>
             </div>
-            <div className="bg-white/10 rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <img src="/images/n12.png" alt="N12" className="h-5 md:h-7 object-contain brightness-0 invert opacity-80" />
+            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <span className="text-white font-bold text-sm md:text-base">ערוץ 12</span>
             </div>
-            <div className="bg-white/10 rounded-lg px-2 py-1 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
-              <span className="text-red-500 font-bold text-base md:text-lg tracking-tight">Calcalist</span>
+            <div className="bg-white/10 rounded-lg px-3 py-2 md:px-4 md:py-2 flex items-center justify-center h-10 md:h-12 transition-all hover:bg-white/20">
+              <span className="text-white font-bold text-sm md:text-base">ערוץ 14</span>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function AboutSection() {
         <h2 className="text-white text-xl md:text-5xl font-bold mb-4">
           אני עמיחי שקל,
         </h2>
-        <p className="text-white text-lg md:text-xl mb-8">
+        <p className="text-white text-lg md:text-xl mb-10">
           ומעבר לזה שייעצתי כבר לחברות ענק כמו:
         </p>
 
@@ -32,8 +32,8 @@ export default function AboutSection() {
         </div>
 
         {/* Golden quote */}
-        <p className="text-amber-400 italic text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
-          חברות ענק משלמות לי אלפי שקלים על הידע הזה – חברי המועדון מקבלים אותו
+        <p className="text-amber-400 italic text-lg md:text-xl leading-relaxed mt-8 mb-12 max-w-2xl mx-auto">
+          חברות ענק משלמות לי אלפי שקלים על הידע הזה, וחברי המועדון מקבלים אותו
           במחיר של אספרסו.
         </p>
 
@@ -46,16 +46,16 @@ export default function AboutSection() {
         </p>
 
         {/* Story */}
-        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto">
+        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-12 max-w-2xl mx-auto">
           <p>
             בסוף 2022, כשהבנה ראשונית של מה זה AI התחילה להגיע לציבור הרחב, אני
             כבר הייתי בעל עסק פעיל עם צוות, לקוחות, ולחצים של יום-יום.
           </p>
           <p>
-            יום אחד ישבתי לנסות את ChatGPT בפעם הראשונה – ותוך דקות הבנתי שמשהו
+            יום אחד ישבתי לנסות את ChatGPT בפעם הראשונה. תוך דקות הבנתי שמשהו
             השתנה לגמרי. הכלי הזה עשה לי ב-30 שניות דברים שלקחו לי{" "}
             <span className="text-white font-bold">שעות של עבודה,</span> ואז
-            הרגשתי משהו שלא ציפיתי לו –
+            הרגשתי משהו שלא ציפיתי לו.
           </p>
           <p>
             <span className="text-white font-bold">נתקפתי חרדה עמוקה…</span>
@@ -66,16 +66,16 @@ export default function AboutSection() {
           </p>
           <p>
             <span className="text-white font-bold">
-              כל כך פחדתי, שפיתחתי אובססיה ל-AI
+              כל כך פחדתי, שפיתחתי אובססיה ל-AI.
             </span>{" "}
-            – התחלתי ללמוד, לחקור, להתנסות כל יום. כל כלי חדש שיצא – ניסיתי
-            אותו. כל טכניקה חדשה – בדקתי אם היא עובדת בפועל. כל שיטת עבודה –
+            התחלתי ללמוד, לחקור, להתנסות כל יום. כל כלי חדש שיצא, ניסיתי
+            אותו. כל טכניקה חדשה, בדקתי אם היא עובדת בפועל. כל שיטת עבודה,
             יישמתי על עצמי ועל העסק שלי.
           </p>
         </div>
 
         {/* Communities image */}
-        <div className="flex justify-center mb-10">
+        <div className="flex justify-center mb-12">
           <img
             src="/images/communities.png"
             alt="קהילות"
@@ -86,13 +86,13 @@ export default function AboutSection() {
         {/* Companies reaching out */}
         <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto">
           <p>
-            בשלב מסוים, חברות כמו Google, Facebook ו-Microsoft התחילו לפנות אליי
-            – לא בגלל שאני מהנדס AI, אלא בגלל שאני יודע לתרגם את הטכנולוגיה
+            בשלב מסוים, חברות כמו Google, Facebook ו-Microsoft התחילו לפנות אליי.
+            לא בגלל שאני מהנדס AI, אלא בגלל שאני יודע לתרגם את הטכנולוגיה
             הזאת לשפה שבעלי עסקים מבינים.
           </p>
         </div>
 
-        <p className="text-white text-lg md:text-2xl font-bold mb-8">
+        <p className="text-white text-lg md:text-2xl font-bold mb-10">
           אפילו ערוצים מובילים הזמינו אותי להתראיין
         </p>
 
@@ -105,7 +105,7 @@ export default function AboutSection() {
         </div>
 
         {/* Google I/O */}
-        <p className="text-white text-lg md:text-xl font-bold mb-8 max-w-2xl mx-auto">
+        <p className="text-white text-lg md:text-xl font-bold mb-10 max-w-2xl mx-auto">
           אפילו הוזמנתי להגיע לכנס ה-AI הגדול בעולם של גוגל:{" "}
           <span className="text-blue-400">Google I/O</span>
         </p>
@@ -119,15 +119,15 @@ export default function AboutSection() {
         </div>
 
         {/* Closing — the gap */}
-        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mb-10 max-w-2xl mx-auto">
+        <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 mt-8 mb-10 max-w-2xl mx-auto">
           <p>
-            אבל מה שהכי כאב לי לראות – זה הפער. חברות ענק כבר משתמשות ב-AI
+            אבל מה שהכי כאב לי לראות, זה הפער. חברות ענק כבר משתמשות ב-AI
             בצורה מטורפת. הן חוסכות מיליונים, מייעלות תהליכים, ומחליפות צוותים
-            שלמים. ובזמן הזה – בעלי עסקים קטנים ובינוניים נשארים מאחור.
+            שלמים. ובזמן הזה, בעלי עסקים קטנים ובינוניים נשארים מאחור.
           </p>
           <p>
-            לא בגלל שהם לא מספיק טובים. בגלל שאף אחד לא מראה להם את הדרך – בשפה
-            שלהם, בקצב שלהם, עם כלים שהם באמת יכולים ליישם.
+            לא בגלל שהם לא מספיק טובים. בגלל שאף אחד לא מראה להם את הדרך.
+            בשפה שלהם, בקצב שלהם, עם כלים שהם באמת יכולים ליישם.
           </p>
         </div>
 
@@ -138,13 +138,13 @@ export default function AboutSection() {
 
         <div className="text-gray-300 text-base md:text-lg leading-relaxed space-y-4 max-w-2xl mx-auto">
           <p>
-            עוד שנה מהיום, אתה תסתכל אחורה ותשאל את עצמך – למה לא התחלתי קודם?
+            עוד שנה מהיום, אתה תסתכל אחורה ותשאל את עצמך. למה לא התחלתי קודם?
           </p>
           <p>
             למה חיכיתי? למה נתתי לכולם לרוץ קדימה בזמן שאני עדיין חושב על זה?
           </p>
           <p>
-            ה-AI לא מחכה לאף אחד. השאלה היא לא אם ללמוד – אלא ממי, ואיך.
+            ה-AI לא מחכה לאף אחד. השאלה היא לא אם ללמוד, אלא ממי, ואיך.
           </p>
         </div>
       </div>

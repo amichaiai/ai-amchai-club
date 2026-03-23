@@ -50,7 +50,7 @@ export default function PricingSection() {
 
           {/* Special offer */}
           <p className="text-white text-base md:text-lg font-bold mb-6 leading-relaxed">
-            אבל רגע, בגלל שזו השקה &ndash; בחודש הראשון בלבד אני נותן לך להיכנס
+            אבל רגע, בגלל שזו השקה, בחודש הראשון בלבד אני נותן לך להיכנס
             ולנסות את המועדון ב-10 ש&quot;ח בלבד!
           </p>
 
